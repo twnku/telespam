@@ -59,7 +59,7 @@ def main():
     threads = []
     stop_event = threading.Event()
     timeout = 900 # Timeout 900 seconds = 15 minutes (60 seconds = 1 minutes, 3600 seconds = 1 hours)
-    looping = 2 # Loop spamming per target
+    looping = 10000 # Loop spamming per target
     target_filename = 'target.json' # Target token files
     word_list = 'word.json' # Random word list for spamming
     print(f"[Loop: {looping}x] [Timeout: {timeout} seconds]")

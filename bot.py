@@ -66,7 +66,7 @@ def main():
     
     # Load word.json
     with open(word_list, 'r') as file:
-        print("[+] Checking Target List...")
+        print("[+] Checking Word List...")
         sentences = json.load(file)
     print("[+]",len(sentences), "Random word found.")
     # Load target.json

@@ -10,23 +10,23 @@ import os
 # Config
 TargetList = "target.json" #    .txt format: token|id         .json format: [{"token":"xxx","id":"123"}]
 timeout = 900 # Timeout 900 seconds = 15 minutes (60 seconds = 1 minutes, 3600 seconds = 1 hours)
-looping = 5 # Loop spamming per target
+looping = 10000 # Loop spamming per target
 
 isWordlist = True # spam random word from wordlist, if False then send Single Message
-WordList = "word.txt" # .txt format: aaaa\nbbbb                 .json format: ["aaaa","bbbb"]
+WordList = "word.json" # .txt format: aaaa \n bbbb                 .json format: ["aaaa","bbbb"]
 WordSingle = "𝐒𝐄𝐓𝐄𝐋𝐀𝐇 𝐏𝐄𝐒𝐀𝐍 𝐈𝐍𝐈, 𝐁𝐎𝐓 𝐀𝐍𝐃𝐀 𝐓𝐈𝐃𝐀𝐊 𝐃𝐀𝐏𝐀𝐓 𝐌𝐄𝐍𝐆𝐈𝐑𝐈𝐌 𝐏𝐄𝐒𝐀𝐍 𝐀𝐏𝐀𝐏𝐔𝐍.\n𝐇𝐔𝐁𝐔𝐍𝐆𝐈 𝐒𝐀𝐘𝐀 𝐉𝐈𝐊𝐀 𝐈𝐍𝐆𝐈𝐍 𝐃𝐈𝐀𝐊𝐓𝐈𝐅𝐊𝐀𝐍 𝐊𝐄𝐌𝐁𝐀𝐋𝐈.\n【 💀 t.me/xTwnk 💀 】" # Send Single Message then logout
 
 isFirstMessage = True # Send Different Message for the first message's
 isFirstMessageImage = True
-firstMessage = "【 💀 𝐁𝐎𝐓 𝐀𝐍𝐃𝐀 𝐓𝐄𝐑𝐊𝐄𝐍𝐀 𝐒𝐏𝐀𝐌 💀 】                                 \nBot anda sekarang sedang terkena pesan spamming, apabila anda ingin menghentikan pesan spam tersebut harap hubungi saya\n"
+firstMessage = "【 💀 𝐁𝐎𝐓 𝐀𝐍𝐃𝐀 𝐓𝐄𝐑𝐊𝐄𝐍𝐀 𝐒𝐏𝐀𝐌 💀 】                                 \nBot anda sekarang sedang terkena pesan spamming, apabila anda ingin menghentikan pesan spam tersebut harap hubungi saya\n\n\n———————————————————\nGarapan kurang gacor? ingin nebar lebih banyak dengan hasil yang mantap? takut kena spam? bisa juga hubungi saya untuk jasa bikin APK dengan fitur paling gacor\n✓ APK Terenkripsi anti bongkar\n✓ Ubah token telegram otomatis dan lebih mudah tanpa rebuild APK dan nebar ulang\n✓ Otomatis mendeteksi spam dan mencegah pesan spam seperti ini\n✓ Gratis Database 100.000+ Nomor WA Aktif"
 firstMessageImage = 'https://i.imgur.com/sNiTqn1.png'
 isPinMessage = True # Pin first message
 isUnpinAll = False # Unpin All Message before first Message
 
 isUpdateBot = True # Change Bot Name, Description, Short Description
 botNameSet = 'Spammed by @xTwnk'
-botDescSet = 'Bxot ini Telah Terkena Spamming oleh @xTwnk silahkan hubungi saya untuk menghentikan'
-botShortDescSet = 'Bxot ini Telah Terkena Spamming oleh @xTwnk'
+botDescSet = 'Bot ini Telah Terkena Spamming oleh @xTwnk silahkan hubungi saya untuk menghentikan'
+botShortDescSet = 'Bot ini Telah Terkena Spamming oleh @xTwnk'
 
 isMarkup = True # Set Markup button for Message
 botMarkup = '{"inline_keyboard": [[{ "text": "Hubungi Saya Untuk Menghentikan Spam", "url": "https://t.me/xTwnk" }]]}' # Inline Markup Button
